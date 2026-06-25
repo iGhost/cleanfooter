@@ -1,0 +1,22 @@
+{
+    "name": "ighost/cleanfooter",
+    "type": "phpbb-extension",
+    "description": "Limits online user listings to registered non-bot users and removes the quick-login form from the board index.",
+    "version": "0.2.1",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "iGhost"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "phpbb/phpbb": ">=3.3.0"
+    },
+    "extra": {
+        "display-name": "Clean Footer",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.3.0,<4.0.0@dev"
+        }
+    }
+}

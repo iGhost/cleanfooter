@@ -1,0 +1,7 @@
+services:
+    ighost.cleanfooter.listener:
+        class: ighost\cleanfooter\event\listener
+        arguments:
+            - '@user'
+        tags:
+            - { name: event.listener }
